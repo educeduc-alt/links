@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 背景 -->
+  <rect width="512" height="512" fill="#b5562b"/>
+  <circle cx="256" cy="256" r="214" fill="#c96a3d"/>
+  <g transform="translate(256 262) scale(1.12) translate(-256 -262)">
+  <!-- 小星星 -->
+  <path d="M92 118l7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2z" fill="#ffd98a"/>
+  <path d="M418 96l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" fill="#ffd98a"/>
+  <circle cx="430" cy="170" r="6" fill="#ffd98a"/>
+  <circle cx="78" cy="190" r="5" fill="#ffd98a"/>
+
+  <!-- 資源教室小屋 -->
+  <g>
+    <rect x="100" y="190" width="312" height="210" rx="22" fill="#fff6ea"/>
+    <path d="M78 206 L256 88 L434 206 Q440 214 430 218 L82 218 Q72 214 78 206Z" fill="#6b3a1f"/>
+    <path d="M110 206 L256 112 L402 206Z" fill="#8a4a26"/>
+    <!-- 招牌 -->
+    <rect x="216" y="146" width="80" height="50" rx="12" fill="#fff6ea"/>
+    <text x="256" y="183" font-family="Noto Sans CJK TC, Noto Sans TC, sans-serif" font-weight="900" font-size="38" text-anchor="middle" fill="#b5562b">資</text>
+    <!-- 窗戶：愛心 -->
+    <rect x="114" y="236" width="62" height="56" rx="12" fill="#ffd9c2"/>
+    <path d="M145 281 C128 268 124 258 131 251 C137 245 143 248 145 253 C147 248 153 245 159 251 C166 258 162 268 145 281Z" fill="#e2574c"/>
+    <!-- 窗戶：書本 -->
+    <rect x="336" y="236" width="62" height="56" rx="12" fill="#cfe6f5"/>
+    <path d="M348 254 Q358 248 367 254 L367 280 Q358 274 348 280Z" fill="#3d7cc9"/>
+    <path d="M386 254 Q376 248 367 254 L367 280 Q376 274 386 280Z" fill="#5a96dd"/>
+  </g>
+
+  <!-- Q 版學生 -->
+  <g>
+    <!-- 身體 -->
+    <path d="M206 430 Q206 356 256 352 Q306 356 306 430Z" fill="#2f7d4f"/>
+    <path d="M238 360 L256 384 L274 360" fill="none" stroke="#fff6ea" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 揮手 -->
+    <path d="M300 378 Q330 360 338 326" fill="none" stroke="#2f7d4f" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="340" cy="318" r="15" fill="#ffd8b8"/>
+    <!-- 抱書的手 -->
+    <rect x="222" y="384" width="68" height="44" rx="6" fill="#ffb347"/>
+    <rect x="222" y="384" width="10" height="44" rx="3" fill="#e08a1e"/>
+    <circle cx="226" cy="406" r="12" fill="#ffd8b8"/>
+    <!-- 頭 -->
+    <circle cx="256" cy="290" r="70" fill="#ffd8b8"/>
+    <!-- 頭髮 -->
+    <path d="M186 292 Q180 214 256 212 Q332 214 326 292 Q318 262 296 252 Q282 270 252 266 Q228 262 214 248 Q194 262 186 292Z" fill="#3b2a20"/>
+    <path d="M226 226 Q250 218 272 224" fill="none" stroke="#6a5040" stroke-width="6" stroke-linecap="round"/>
+    <!-- 臉 -->
+    <ellipse cx="230" cy="300" rx="9" ry="12" fill="#3b2a20"/>
+    <ellipse cx="282" cy="300" rx="9" ry="12" fill="#3b2a20"/>
+    <circle cx="233" cy="295" r="3.5" fill="#fff"/>
+    <circle cx="285" cy="295" r="3.5" fill="#fff"/>
+    <ellipse cx="212" cy="322" rx="13" ry="8" fill="#f5a48e"/>
+    <ellipse cx="300" cy="322" rx="13" ry="8" fill="#f5a48e"/>
+    <path d="M244 324 Q256 336 268 324" fill="none" stroke="#3b2a20" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</g>
+</svg>
