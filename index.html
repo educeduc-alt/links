@@ -37,6 +37,7 @@ h1{font-size:1.6rem;font-weight:900;margin:0;letter-spacing:.02em}
 .search input{width:100%;font:inherit;font-size:1rem;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 16px 11px 40px;min-height:46px}
 .search input:focus{outline:2px solid var(--accent);outline-offset:1px}
 .search span{position:absolute;left:15px;top:50%;transform:translateY(-50%);opacity:.6}
+.h2sub{font-weight:400;letter-spacing:0;margin-left:10px;color:var(--muted);opacity:.8}
 h2{font-size:.82rem;letter-spacing:.12em;color:var(--muted);font-weight:700;margin:26px 4px 10px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
 .app{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:18px 10px 14px;
@@ -89,7 +90,7 @@ footer{margin-top:34px;color:var(--muted);font-size:.78rem;text-align:center}
   <button type="button" class="x" id="installClose" aria-label="關閉提示">✕</button>
 </div>
 <section data-sec>
-<h2>常用網站</h2>
+<h2>老師使用<span class="h2sub">資源教室日常業務</span></h2>
 <div class="grid">
   <a class="app" style="--c:#8a5a3b" href="https://resource-classroom-msn.eded7755.workers.dev/" target="_blank" rel="noopener" data-k="便利貼 看板 布告欄 公告 儀表板 今日活動">
     <span class="badge live">更新中</span><span class="icon">🗒️</span><b>便利貼看板</b><small>今日活動・重點提醒</small></a>
@@ -101,16 +102,28 @@ footer{margin-top:34px;color:var(--muted);font-size:.78rem;text-align:center}
     <span class="icon">🔑</span><b>線上借用表</b><small>空間與設備借用</small></a>
   <a class="app" style="--c:#4a5aa8" href="https://educeduc-alt.github.io/resource-room/activity-data/" target="_blank" rel="noopener" data-k="活動 資料台 特推會 報表 業務分工 生命教育">
     <span class="icon">🗃️</span><b>活動資料台</b><small>丟總表產出報表</small></a>
-  <a class="app" style="--c:#1f6fb8" href="https://claude.ai/artifact/8LzFCqXxCwzn7LgrDwpzap" target="_blank" rel="noopener" data-k="AI 監督 中心 ChatGPT Gemini Canva 審查">
-    <span class="icon">🛡️</span><b>AI 監督中心</b><small>AI 產出審查</small></a>
-  <a class="app" style="--c:#a8414a" href="https://claude.ai/artifact/EKJr5zgXUp4emfTZj2Skv7" target="_blank" rel="noopener" data-k="預支 核銷 追蹤 經費 發票">
-    <span class="icon">💰</span><b>預支核銷</b><small>到期提醒・發票登記</small></a>
+</div>
+</section>
+
+<section data-sec>
+<h2>學生學習支持<span class="h2sub">聽打字幕與易讀工具</span></h2>
+<div class="grid">
+  <a class="app" style="--c:#2a7a6f" href="https://educeduc-alt.github.io/ming-captions/" target="_blank" rel="noopener" data-k="即時 聽打 字幕 簡報 語音">
+    <span class="icon">🎤</span><b>即時聽打</b><small>簡報＋即時字幕</small></a>
   <a class="app" style="--c:#6a4c93" href="https://educeduc-alt.github.io/easy-read-forms/" target="_blank" rel="noopener" data-k="易讀 小幫手 表格 申請表 三步驟">
     <span class="icon">📋</span><b>易讀小幫手</b><small>看懂表格三步驟</small></a>
   <a class="app" style="--c:#7d5bb0" href="https://claude.ai/artifact/MuPmmVmKvsRqxoc58YSTRW" target="_blank" rel="noopener" data-k="看懂表格 易讀 Claude 版 三步驟">
     <span class="icon">🧩</span><b>看懂表格</b><small>易讀 Claude 新版</small></a>
-  <a class="app" style="--c:#2a7a6f" href="https://educeduc-alt.github.io/ming-captions/" target="_blank" rel="noopener" data-k="即時 聽打 字幕 簡報 語音">
-    <span class="icon">🎤</span><b>即時聽打</b><small>簡報＋即時字幕</small></a>
+</div>
+</section>
+
+<section data-sec>
+<h2>自己使用<span class="h2sub">行政與個人工具</span></h2>
+<div class="grid">
+  <a class="app" style="--c:#a8414a" href="https://claude.ai/artifact/EKJr5zgXUp4emfTZj2Skv7" target="_blank" rel="noopener" data-k="預支 核銷 追蹤 經費 發票">
+    <span class="icon">💰</span><b>預支核銷</b><small>到期提醒・發票登記</small></a>
+  <a class="app" style="--c:#1f6fb8" href="https://claude.ai/artifact/8LzFCqXxCwzn7LgrDwpzap" target="_blank" rel="noopener" data-k="AI 監督 中心 ChatGPT Gemini Canva 審查">
+    <span class="icon">🛡️</span><b>AI 監督中心</b><small>AI 產出審查</small></a>
   <a class="app" style="--c:#3d5a80" href="https://educeduc-alt.github.io/chsf-signup/" target="_blank" rel="noopener" data-k="研習 報名 公文 回文">
     <span class="icon">📝</span><b>研習報名</b><small>報名・回文產生</small></a>
 </div>
@@ -149,7 +162,7 @@ footer{margin-top:34px;color:var(--muted);font-size:.78rem;text-align:center}
 </section>
 
 <p class="empty" id="empty">找不到符合的網站</p>
-<footer>弘光科大資源教室｜更新於 2026/11/23 ・ <a href="https://github.com/educeduc-alt/links" style="color:inherit">原始碼</a></footer>
+<footer>弘光科大資源教室｜更新於 2026/11/26 ・ <a href="https://github.com/educeduc-alt/links" style="color:inherit">原始碼</a></footer>
 </div>
 
 <script>
